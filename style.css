@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+  color: #333;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  background: #0a58ca;
+  color: #fff;
+  padding: 12px;
+  text-align: center;
+  z-index: 10;
+}
+
+.hero {
+  padding: 20px;
+  text-align: center;
+}
+
+.calculator-card {
+  background: #fff;
+  margin: 15px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.calculator-card label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.calculator-card input,
+.calculator-card select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+.calculator-card button {
+  margin-top: 15px;
+  width: 100%;
+  padding: 12px;
+  background: #0a58ca;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.calculator-card button:hover {
+  background: #084298;
+}
+
+.results {
+  margin-top: 15px;
+}
+
+.info, .faq {
+  padding: 20px;
+}
+
+.ad {
+  background: #e0e0e0;
+  margin: 15px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.disclaimer {
+  font-size: 13px;
+  padding: 15px;
+  background: #fff3cd;
+}
+
+.footer {
+  text-align: center;
+  padding: 15px;
+  background: #222;
+  color: #fff;
+}
